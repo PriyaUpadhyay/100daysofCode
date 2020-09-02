@@ -1,0 +1,24 @@
+.grid {
+	display: flex;
+    flex-wrap: wrap;
+    height:300px;
+    width: 400px;
+
+
+}
+
+body{
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+h3{
+	position: absolute;
+	left: 70%;
+	font-family: Monospace;
+	font-size: 58px;
+	color: #9370DB;
+}
