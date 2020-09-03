@@ -1,0 +1,36 @@
+.square {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+}
+
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 618px;
+	height: 618px;
+	float: right;
+	background-color: #ffcccc;
+}
+
+.mole {
+	background-image: url('mole.jpg');
+	background-size: cover;
+}
+
+h1,h2{
+	display: inline;
+	font-size: 45px;
+	color: #808080;
+	
+}
+
+
+body{
+	background-color: #A52A2A;
+	background-image: url('back.jpg');
+	background-size: 100%;
+}
