@@ -1,0 +1,41 @@
+.grid{
+	border: 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 350px;
+	background-color: black;
+	position: absolute;
+	left: 40%;
+}
+
+.grid div{
+	height: 50px;
+	width: 50px;
+}
+
+.player-one {
+	background-color: red;
+	border-radius: 25px;
+}
+
+.player-two {
+	background-color: blue;
+	border-radius: 25px;
+}
+body{
+	background-image: url('back.jpg');
+}
+h1{
+	color: green;
+}
+h3{
+	color:#2E2E2E;
+	font-size: 50px;
+}
+#red {
+	color: red;
+}
+#blue {
+	color: blue;
+}
