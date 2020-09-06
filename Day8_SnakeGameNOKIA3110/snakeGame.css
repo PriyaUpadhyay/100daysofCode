@@ -1,0 +1,39 @@
+.grid {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+	position: absolute;
+	left: 42%;
+	background-color: black;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.snake {
+	background-color: blue;
+}
+
+.apple{
+	background-color: purple;
+	border-radius: 8px;
+}
+.score{
+	font-size: 50px;
+	color: purple;
+	position: absolute;
+	left: 43%;
+	top :50%;
+}
+.start {
+	font-size: 35px;
+	color: red;
+}
+body{
+	background-image: url('back.jpg');
+	background-size: 100%;
+}
