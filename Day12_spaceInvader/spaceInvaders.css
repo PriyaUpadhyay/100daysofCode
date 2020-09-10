@@ -1,0 +1,44 @@
+body {
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	border:solid 1px;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 40%;
+	top: 35%;
+	background-color: black;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.shooter {
+	background-color: blue;
+}
+.invader{
+	background-color: #660033;
+	border-radius: 10px;
+}
+
+.boom {
+	background-color: red;
+}
+
+.laser {
+	background-color: #ffff00;
+}
+h3{
+	font-size: 4vw;
+	color: #660033;
+	left: 12%;
+	position: absolute;
+}
