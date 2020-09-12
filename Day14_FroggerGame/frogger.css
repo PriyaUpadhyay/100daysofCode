@@ -1,0 +1,67 @@
+body{
+	background-color: #336699;
+}
+
+#button {
+	font-size: 3vw;
+	background-color: #ffcccc;
+}
+h3{
+	font-size: 3vw;
+	position: absolute;
+	color: #660033;
+	left: 43%;
+}
+#result {
+	font-size: 3.2vw;
+	text-transform: uppercase;
+	color: #cc0000;
+	position: absolute;
+	top:2%;
+	left: 44%;
+}
+
+.grid {
+	border:3px solid;
+	display: flex;
+	flex-wrap: wrap;
+	height: 180px;
+	width:180px;
+	position: absolute;
+	left: 45%;
+	top:37%;
+}
+
+.grid div {
+	height: 20px;
+	width: 20px;
+}
+
+.ending-block {
+	background-color: red;
+}
+
+.starting-block {
+	background-color: blue;
+}
+
+
+.c1 {
+	background-color: black;
+}
+
+.c2, .c3{
+	background-color: grey;
+}
+
+.l1, .l2, .l3 {
+	background-color: brown;
+}
+
+.l4, .l5 {
+	background-color: lightblue;
+}
+.frog {
+	background-color: darkgreen;
+
+}
