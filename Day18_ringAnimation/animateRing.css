@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #DCDCDC;
+	overflow: hidden;
+}
+
+.loader{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border:4px solid #f1f1f1;
+	border-radius: 50%;
+	box-shadow: inset -10px -10px 15px rgba(255,255,255,0.5),
+	            inset 10px 10px 10px rgba(0,0,0,0.1)
+
+}
+
+.loader span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background:linear-gradient(#5499c7 ,  #58d68d,  #bb8fce);
+    z-index: -1;
+    filter:blur(3px);
+    animation: animate 0.5s linear infinite; 
+}
+
+.audio{
+	position: absolute;
+    top: 90%;
+    background: bisque;
+    width: 5%;
+    left: 40%;
+    height: 2px;
+
+ 
+}
+
+@keyframes animate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
